@@ -1,15 +1,13 @@
 {
-  "name": "pages",
+  "name": "book-product",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/S0lar00/gyuhao.git",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "sass": "^1.69.5",
-    "vite": "^5.0.0"
-  }
+    ...
 }
